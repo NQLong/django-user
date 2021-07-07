@@ -1,0 +1,661 @@
+[
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 4,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 4,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 4,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 4,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 5,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 5,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 5,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 5,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add my user",
+            "content_type": 6,
+            "codename": "add_myuser"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change my user",
+            "content_type": 6,
+            "codename": "change_myuser"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete my user",
+            "content_type": 6,
+            "codename": "delete_myuser"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view my user",
+            "content_type": 6,
+            "codename": "view_myuser"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add user profile",
+            "content_type": 7,
+            "codename": "add_userprofile"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change user profile",
+            "content_type": 7,
+            "codename": "change_userprofile"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete user profile",
+            "content_type": 7,
+            "codename": "delete_userprofile"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view user profile",
+            "content_type": 7,
+            "codename": "view_userprofile"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "Auth",
+            "model": "myuser"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "UserProfile",
+            "model": "userprofile"
+        }
+    },
+    {
+        "model": "User.myuser",
+        "pk": "17242bed-50bc-490a-9e7c-6ff906fd1254",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$Nx9S4aPjpjiHfbOUfUov2q$esKagVWByuS7JM1yxVQv9+yMaSvdypKbLlVqof++wAc=",
+            "last_login": null,
+            "is_superuser": true,
+            "email": "1@1.com",
+            "username": "1",
+            "full_name": "1",
+            "is_staff": true,
+            "is_active": true,
+            "company_name": "1",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "User.myuser",
+        "pk": "359ebd56-7911-4b33-aceb-b6d25425ee8e",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$ELdnBnaJPjN9T1PpRtTOus$v7sl7eZX6ogLzDcQLqiSf2klI44Qktz26CE+IRQXkqA=",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "15@15.com",
+            "username": "15",
+            "full_name": "15",
+            "is_staff": true,
+            "is_active": true,
+            "company_name": "",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "User.myuser",
+        "pk": "3ee8f1c0-e0e8-4aac-b356-6a2d8ce7cc27",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$N0bD8RbhaCPgG8yPWBWC8H$WvueIYZwJoyDPZFsokbVML+p/Z94CCAJE63QUfVerzs=",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "12@12.com",
+            "username": "12",
+            "full_name": "12",
+            "is_staff": true,
+            "is_active": true,
+            "company_name": "",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "User.myuser",
+        "pk": "45fcaed4-d496-4e0a-a7fb-be023b681950",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$lx0EldGppdWQ18De5gEZMF$kuBVStKrk1SAmu/vTaHkEoWxTEH0UB+kyDS87Qrqmw8=",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "13@13.com",
+            "username": "13",
+            "full_name": "13",
+            "is_staff": true,
+            "is_active": true,
+            "company_name": "",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "User.myuser",
+        "pk": "4d26886c-e019-4e6b-ba1c-93b6ba774970",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$T2ICvhYZxC6UYr5WmjweWf$G+zbSci631Bc3mhBJjHKdSzBMIr1SKdYqSKRtBSiCOQ=",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "9@9.com",
+            "username": "9",
+            "full_name": "9",
+            "is_staff": true,
+            "is_active": true,
+            "company_name": "Horus",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "User.myuser",
+        "pk": "5df010d8-e855-488c-9439-540e2093d2c1",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$OXxppjCl72Rpk7J6QJLOKL$aX/CC8mah6osx24KD/i3QIi6oGcfs5eVDKkC/aKXK6U=",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "14@14.com",
+            "username": "14",
+            "full_name": "14",
+            "is_staff": true,
+            "is_active": true,
+            "company_name": "",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "User.myuser",
+        "pk": "6ac870cf-ed81-4821-ad3b-8eacee542c3e",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$O1UnQdaMdEECQCWHfLSlEH$OjdxAxTUudw4EqwUpnvPfaKVMZw6cCt9HiCpmjnblfA=",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "4@4.com",
+            "username": "4",
+            "full_name": "4",
+            "is_staff": true,
+            "is_active": true,
+            "company_name": "Horus",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "User.myuser",
+        "pk": "808b4337-473b-476c-8e57-4492fbe64cf3",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$I0iioH7CnMvPKf3DE84qJj$6HExCta/6UahfOUXVoK5o//avO2VAdY1C+ALB7CJ+8w=",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "3@3.com",
+            "username": "3",
+            "full_name": "3",
+            "is_staff": true,
+            "is_active": true,
+            "company_name": "Horus",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "User.myuser",
+        "pk": "830a3cbc-ffa5-4737-8f68-66b6a251ce8a",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$XzACmS4XMvoZFLPIRJQhGs$tR5f6mz2z5Tka2KCDonPh9iDWs/R0JXEUggsLztCPdc=",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "5@5.com",
+            "username": "5",
+            "full_name": "5",
+            "is_staff": true,
+            "is_active": true,
+            "company_name": "Horus",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "User.myuser",
+        "pk": "901681be-085a-43a5-b47a-cadb57fbde61",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$Dq1LbAfwtWfl19CIrft16F$h7RtZqJ4BZx7265S1x0RaFEYJMMKNijpi0A7amJgmOE=",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "6@6.com",
+            "username": "6",
+            "full_name": "6",
+            "is_staff": true,
+            "is_active": true,
+            "company_name": "Horus",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "User.myuser",
+        "pk": "b0e2c654-8a0e-466e-a856-0dbf00538264",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$0725wMv9MHrMNeXoIe6ZUR$I6gnnABiGseR6CieRhFD3JZ1DF7kvqwuctoBAUJMwxo=",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "8@8.com",
+            "username": "8",
+            "full_name": "8",
+            "is_staff": true,
+            "is_active": true,
+            "company_name": "Horus",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "User.myuser",
+        "pk": "d80fbe84-2e32-45d6-9cc6-7146613d99d6",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$RBNuDyaX586n0ESuuHPnog$Ssagn8GDcBu1LXhq54SlF9KalJlCBzunq3eE4JV4fbE=",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "7@7.com",
+            "username": "7",
+            "full_name": "7",
+            "is_staff": true,
+            "is_active": true,
+            "company_name": "Horus",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "User.myuser",
+        "pk": "dc09663b-d02c-4e25-9195-572293fa7443",
+        "fields": {
+            "password": "pbkdf2_sha256$260000$YSpiwqhmZDO4ssgXINhtf8$WdabG1cWLGolKiEwOI0PJjOzpH3CfyYcyyWBn/DT3DY=",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "2@2.com",
+            "username": "2",
+            "full_name": "2",
+            "is_staff": true,
+            "is_active": true,
+            "company_name": "Horus",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "User.userprofile",
+        "pk": 1,
+        "fields": {
+            "bio": null,
+            "company_name": null,
+            "job": null,
+            "user": "dc09663b-d02c-4e25-9195-572293fa7443"
+        }
+    },
+    {
+        "model": "User.userprofile",
+        "pk": 2,
+        "fields": {
+            "bio": null,
+            "company_name": null,
+            "job": null,
+            "user": "17242bed-50bc-490a-9e7c-6ff906fd1254"
+        }
+    },
+    {
+        "model": "User.userprofile",
+        "pk": 3,
+        "fields": {
+            "bio": null,
+            "company_name": null,
+            "job": null,
+            "user": "808b4337-473b-476c-8e57-4492fbe64cf3"
+        }
+    },
+    {
+        "model": "User.userprofile",
+        "pk": 4,
+        "fields": {
+            "bio": null,
+            "company_name": null,
+            "job": null,
+            "user": "6ac870cf-ed81-4821-ad3b-8eacee542c3e"
+        }
+    },
+    {
+        "model": "User.userprofile",
+        "pk": 5,
+        "fields": {
+            "bio": null,
+            "company_name": null,
+            "job": null,
+            "user": "830a3cbc-ffa5-4737-8f68-66b6a251ce8a"
+        }
+    },
+    {
+        "model": "User.userprofile",
+        "pk": 6,
+        "fields": {
+            "bio": null,
+            "company_name": null,
+            "job": null,
+            "user": "901681be-085a-43a5-b47a-cadb57fbde61"
+        }
+    },
+    {
+        "model": "User.userprofile",
+        "pk": 7,
+        "fields": {
+            "bio": null,
+            "company_name": null,
+            "job": null,
+            "user": "d80fbe84-2e32-45d6-9cc6-7146613d99d6"
+        }
+    },
+    {
+        "model": "User.userprofile",
+        "pk": 8,
+        "fields": {
+            "bio": null,
+            "company_name": null,
+            "job": null,
+            "user": "b0e2c654-8a0e-466e-a856-0dbf00538264"
+        }
+    },
+    {
+        "model": "User.userprofile",
+        "pk": 9,
+        "fields": {
+            "bio": null,
+            "company_name": null,
+            "job": null,
+            "user": "4d26886c-e019-4e6b-ba1c-93b6ba774970"
+        }
+    },
+    {
+        "model": "User.userprofile",
+        "pk": 10,
+        "fields": {
+            "bio": null,
+            "company_name": null,
+            "job": null,
+            "user": "3ee8f1c0-e0e8-4aac-b356-6a2d8ce7cc27"
+        }
+    },
+    {
+        "model": "User.userprofile",
+        "pk": 11,
+        "fields": {
+            "bio": null,
+            "company_name": null,
+            "job": null,
+            "user": "45fcaed4-d496-4e0a-a7fb-be023b681950"
+        }
+    },
+    {
+        "model": "User.userprofile",
+        "pk": 12,
+        "fields": {
+            "bio": null,
+            "company_name": null,
+            "job": null,
+            "user": "5df010d8-e855-488c-9439-540e2093d2c1"
+        }
+    },
+    {
+        "model": "User.userprofile",
+        "pk": 13,
+        "fields": {
+            "bio": null,
+            "company_name": null,
+            "job": null,
+            "user": "359ebd56-7911-4b33-aceb-b6d25425ee8e"
+        }
+    }
+]
